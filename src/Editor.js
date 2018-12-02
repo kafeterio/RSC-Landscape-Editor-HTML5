@@ -114,9 +114,6 @@ function unpackSectors() {
     sectorsLoaded = true;
 }
 
-
-<<<<<<< HEAD
-=======
 function updateSectors() {
 
 
@@ -159,7 +156,6 @@ function updateSectors() {
 
 }
 
->>>>>>> origin/master
 function drawSector(sectorIndex) {
 
     var geometry = new THREE.PlaneGeometry((TILE_MESH_SIZE * TILE_COUNT), (TILE_MESH_SIZE * TILE_COUNT), TILE_COUNT, TILE_COUNT);
